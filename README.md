@@ -32,7 +32,7 @@ Note: During the first run, the main script will use the `renv` package to resto
 - `run1_preprocessing.R`: runs all data preprocessing steps 
 - `run2_allanalysis.R`: runs statistical association analysis and network analysis
 - `run3_prediction.R`: runs predictive modeling 
-- `run4_prediction.R`: runs replication analysis
+- `run4_replication.R`: runs replication analysis
 - `run5_figures.R`: generates paper figures
 
 *See [expected directory tree](expected_directory_tree.txt) after running all the code.*
