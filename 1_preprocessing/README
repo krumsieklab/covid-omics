@@ -1,0 +1,25 @@
+This folder contains the scripts to preprocess metabolomics and proteomics data
+
+"main_GIM_preprocessing.R" 
+  preprocesses and saves the metabolomics and proteomics data for subsequent analysis
+  
+"main_GIM_preprocessing_for_GGM.R"
+  preprocesses and saves the metabolomics and proteomics data for GGM analysis
+  
+"main_GIM_preprocessing_for_ibd.R"
+  preprocesses and saves the metabolomics and proteomics data for intubation analysis
+
+
+-- input data files -- 
+  "DATA/gim_clinical_metadata.xlsx"
+  "DATA/gim_metabolomics.xlsx"
+  "DATA/gim_proteomics.xlsx"
+
+
+-- output files --
+  [1] "data_preprocessed_metabo.Rdata" 
+  [2] "data_preprocessed_proteo.Rdata" 
+  [3] "data_preprocessed_for_ibd.Rdata"
+  [4] "data_preprocessed_for_GGM.Rdata"
+
+

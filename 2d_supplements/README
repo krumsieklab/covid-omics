@@ -1,0 +1,39 @@
+This folder contains the scripts for supplementary material
+
+----------------------------------------------------------------------------------
+-- code file to start analysis -- 
+main_GIM_intubation_at_blood_draw.R
+  to check the effects of intubation-at-blood-draw.
+
+-- input data file -- 
+  "1_preprocessing/data_preprocessed_for_ibd.Rdata"
+preprocessed metabolomics and proteomics data for intubation-at-blood-draw analysis
+
+
+-- output files --
+  folder: "/results"
+all results, statistics and plots:
+[1] "GIM_metabointubation_at_blood_draw.html"
+[2] "GIM_metabointubation_at_blood_draw.rds" 
+[3] "GIM_metabointubation_at_blood_draw.xlsx"
+[4] "GIM_proteointubation_at_blood_draw.html"
+[5] "GIM_proteointubation_at_blood_draw.rds" 
+[6] "GIM_proteointubation_at_blood_draw.xlsx"
+
+
+---------------------------------------------------------------------------------- 
+-- code file to start analysis -- 
+main_PCA_and_Time_analysis.R
+  to do PCA and Time effect anallysis
+
+-- input data file -- 
+  "1_preprocessing/data_preprocessed_metabo.Rdata"
+  "1_preprocessing/data_preprocessed_proteo.Rdata"
+preprocessed metabolomics and proteomics data for PCAs and Time effect analysis
+
+
+-- output files --
+  folder: "/results"
+all results, statistics and plots:
+[1] "supplement_PCA_Time.fig"  
+

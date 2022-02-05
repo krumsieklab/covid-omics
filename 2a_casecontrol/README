@@ -1,0 +1,30 @@
+This folder contains the scripts for statistical association analysis between COVID-19 cases and controls.
+
+
+-- code file to start analysis -- 
+  main_GIM_casecontrol.R
+
+
+-- input data files -- 
+  "/1_preprocessing/data_preprocessed_metabo.Rdata"
+preprocessed metabolomics data
+
+  "/1_preprocessing/data_preprocessed_proteo.Rdata"
+preprocessed proteomics data
+
+
+-- output files --
+  folder: "/results"
+all results, statistics and plots
+
+ [1] "Equalizer_casecontrol_metabo_20220203.pdf"
+ [2] "Equalizer_casecontrol_proteo_20220203.pdf"
+ [3] "GIM_Case-Control_metabo_pathway_stat.xlsx"
+ [4] "GIM_Case-Control_metabo.html"             
+ [5] "GIM_Case-Control_metabo.rds"              
+ [6] "GIM_Case-Control_metabo.xlsx"             
+ [7] "GIM_Case-Control_proteo_pathway_stat.xlsx"
+ [8] "GIM_Case-Control_proteo.html"             
+ [9] "GIM_Case-Control_proteo.rds"              
+[10] "GIM_Case-Control_proteo.xlsx" 
+

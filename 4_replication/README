@@ -1,0 +1,21 @@
+
+replication_Su_et_a2.R
+  this script is to calculate our model performance on the independent dataset published with 
+  https://doi.org/10.1016/j.cell.2020.10.037
+  we also calculate baseline model performance, and compare our model with baseline model.
+
+replication_Shen_et_al1.R
+replication_Shen_et_al2.R
+  this scripts are to calculate our model performance on the independent dataset published with 
+  https://www.cell.com/action/showPdf?pii=S0092-8674%2820%2930627-9
+  we also calculate baseline model performance, model developed in the Shen et al paper, and 
+  compare our model with baseline and Shen et al model.
+  
+reanalysis_Shen_et_al.R
+  this script is to calculate test sets AUCs of the model developed in 
+  https://www.cell.com/action/showPdf?pii=S0092-8674%2820%2930627-9
+  where test set AUCs are not reported. We also extracted age and compare if
+  the model performs any better than age itself. 
+ 
+
+

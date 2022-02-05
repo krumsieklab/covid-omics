@@ -1,0 +1,205 @@
+
+├── 1_preprocessing
+│   ├── README
+│   ├── data_preprocessed_for_GGM.Rdata
+│   ├── data_preprocessed_for_ibd.Rdata
+│   ├── data_preprocessed_metabo.Rdata
+│   ├── data_preprocessed_proteo.Rdata
+│   ├── main_GIM_preprocessing.R
+│   ├── main_GIM_preprocessing_for_GGM.R
+│   ├── main_GIM_preprocessing_for_ibd.R
+│   ├── utils_GIM_dataloader.R
+│   └── utils_GIM_preprocessing.R
+│
+│
+├── 2a_casecontrol
+│   ├── README
+│   ├── main_GIM_casecontrol.R
+│   ├── results
+│   │   ├── Equalizer_casecontrol_metabo_20220203.pdf
+│   │   ├── Equalizer_casecontrol_proteo_20220203.pdf
+│   │   ├── GIM_Case-Control_metabo.html
+│   │   ├── GIM_Case-Control_metabo.rds
+│   │   ├── GIM_Case-Control_metabo.xlsx
+│   │   ├── GIM_Case-Control_metabo_pathway_stat.xlsx
+│   │   ├── GIM_Case-Control_proteo.html
+│   │   ├── GIM_Case-Control_proteo.rds
+│   │   ├── GIM_Case-Control_proteo.xlsx
+│   │   └── GIM_Case-Control_proteo_pathway_stat.xlsx
+│   └── utils_GIM_casecontrol.R
+│
+│
+├── 2b_clinical
+│   ├── README
+│   ├── main_GIM_clinical.R
+│   ├── results
+│   │   ├── Equalizer_metabo_age.pdf
+│   │   ├── Equalizer_metabo_bmi.pdf
+│   │   ├── Equalizer_metabo_ckd_or_esrd.pdf
+│   │   ├── Equalizer_metabo_crp.pdf
+│   │   ├── Equalizer_metabo_csc_int_death.pdf
+│   │   ├── Equalizer_metabo_d_dimer.pdf
+│   │   ├── Equalizer_metabo_death.pdf
+│   │   ├── Equalizer_metabo_dm.pdf
+│   │   ├── Equalizer_metabo_ferritin_level.pdf
+│   │   ├── Equalizer_metabo_htn.pdf
+│   │   ├── Equalizer_metabo_icu.pdf
+│   │   ├── Equalizer_metabo_intubation1.pdf
+│   │   ├── Equalizer_metabo_lymphocyte.pdf
+│   │   ├── Equalizer_metabo_max_SOFA.pdf
+│   │   ├── Equalizer_metabo_max_aki_stage.pdf
+│   │   ├── Equalizer_metabo_platelet.pdf
+│   │   ├── Equalizer_metabo_sex.pdf
+│   │   ├── Equalizer_proteo_age.pdf
+│   │   ├── Equalizer_proteo_bmi.pdf
+│   │   ├── Equalizer_proteo_ckd_or_esrd.pdf
+│   │   ├── Equalizer_proteo_crp.pdf
+│   │   ├── Equalizer_proteo_csc_int_death.pdf
+│   │   ├── Equalizer_proteo_d_dimer.pdf
+│   │   ├── Equalizer_proteo_death.pdf
+│   │   ├── Equalizer_proteo_dm.pdf
+│   │   ├── Equalizer_proteo_ferritin_level.pdf
+│   │   ├── Equalizer_proteo_htn.pdf
+│   │   ├── Equalizer_proteo_icu.pdf
+│   │   ├── Equalizer_proteo_intubation1.pdf
+│   │   ├── Equalizer_proteo_lymphocyte.pdf
+│   │   ├── Equalizer_proteo_max_SOFA.pdf
+│   │   ├── Equalizer_proteo_max_aki_stage.pdf
+│   │   ├── Equalizer_proteo_platelet.pdf
+│   │   ├── Equalizer_proteo_sex.pdf
+│   │   ├── GIM_clinicals_metabo.html
+│   │   ├── GIM_clinicals_metabo.rds
+│   │   ├── GIM_clinicals_metabo_allstats.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_age_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_bmi_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_ckd_or_esrd_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_crp_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_csc_int_death_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_d_dimer_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_death_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_dm_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_ferritin_level_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_htn_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_icu_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_intubation1_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_max_SOFA_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_max_aki_stage_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_platelet_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_metabo_sex_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_metabo_overview.pdf
+│   │   ├── GIM_clinicals_proteo.html
+│   │   ├── GIM_clinicals_proteo.rds
+│   │   ├── GIM_clinicals_proteo_allstats.xlsx
+│   │   ├── GIM_clinicals_proteo_overview.pdf
+│   │   ├── GIM_clinicals_proteo_proteo_age_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_proteo_proteo_ckd_or_esrd_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_proteo_proteo_crp_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_proteo_proteo_csc_int_death_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_proteo_proteo_d_dimer_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_proteo_proteo_death_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_proteo_proteo_ferritin_level_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_proteo_proteo_icu_pathway_stat.xlsx
+│   │   ├── GIM_clinicals_proteo_proteo_intubation1_pathway_stat.xlsx
+│   │   └── GIM_clinicals_proteo_proteo_platelet_pathway_stat.xlsx
+│   └── utils_GIM_clinical.R
+│
+│
+├── 2c_networks
+│   ├── README
+│   ├── main_GGM_analysis.R
+│   └── results
+│       └── igraph_networks.Rdata
+│
+│
+├── 2d_supplements
+│   ├── README
+│   ├── main_GIM_intubation_at_blood_draw.R
+│   ├── main_PCA_and_Time_analysis.R
+│   ├── results
+│   │   ├── GIM_metabointubation_at_blood_draw.html
+│   │   ├── GIM_metabointubation_at_blood_draw.rds
+│   │   ├── GIM_metabointubation_at_blood_draw.xlsx
+│   │   ├── GIM_proteointubation_at_blood_draw.html
+│   │   ├── GIM_proteointubation_at_blood_draw.rds
+│   │   ├── GIM_proteointubation_at_blood_draw.xlsx
+│   │   └── supplement_PCA_Time.fig
+│   └── utils_GIM_intubation_at_blood_draw.R
+│
+│
+├── 3a_composite
+│   ├── README
+│   ├── data_for_predictive_modeling.Rdata
+│   ├── main_create_composite_outcome.R
+│   └── utils_composite.R
+│
+│
+├── 3b_prediction
+│   ├── README
+│   ├── lasso_loo_fits.Rdata
+│   ├── lasso_path_loo_fits.Rdata
+│   ├── main_prediction_master_fit.R
+│   ├── main_prediction_modeling.R
+│   ├── main_prediction_modeling_lasso_path.R
+│   ├── model
+│   │   ├── utils_coxme_sorceries.R
+│   │   ├── utils_coxph_sorceries.R
+│   │   ├── utils_lasso_path_sorceries.R
+│   │   ├── utils_lasso_sorceries.R
+│   │   └── utils_loo_prediction.R
+│   └── reor4me_signatures.Rdata
+│
+│
+├── 4_replication
+│   ├── 1-s2.0-S0092867420306279-mmc1.xlsx
+│   ├── 1-s2.0-S0092867420306279-mmc2.xlsx
+│   ├── 1-s2.0-S0092867420306279-mmc5.xlsx
+│   ├── README
+│   ├── Shen_et_al_testset1.Rdata
+│   ├── Shen_et_al_testset2.Rdata
+│   ├── Su_et_al.Rdata
+│   ├── Su_et_al_TableS1.xlsx
+│   ├── reanalysis_Shen_et_al.R
+│   ├── replication_Shen_et_al1.R
+│   ├── replication_Shen_et_al2.R
+│   └── replication_Su_et_al.R
+│
+│
+├── 5_paperfigures
+│   ├── README
+│   ├── figure2.R
+│   ├── figure2.fig
+│   ├── figure2.pdf
+│   ├── figure3.R
+│   ├── figure3.fig
+│   ├── figure3.pdf
+│   ├── figure4.R
+│   ├── figure4.fig
+│   ├── figure4.pdf
+│   ├── figure5.R
+│   ├── figure5.fig
+│   ├── figure5.pdf
+│   ├── figure5Supplement.R
+│   ├── figure5Supplement.fig
+│   ├── figure5_supplement.pdf
+│   ├── figure5replication.R
+│   └── figure5replication.fig
+│
+│
+├── DATA
+│   ├── GIM_outcome_list.xlsx
+│   ├── KEGGpw_Hierarchy.xlsx
+│   ├── gim_clinical_metadata.xlsx
+│   ├── gim_metabolomics.xlsx
+│   ├── gim_proteomics.xlsx
+│   └── metabolite_annotations.xlsx
+│
+│
+├── covid-omics.Rproj
+├── main_main.R
+├── readme
+├── run1_preprocessing.R
+├── run2_allanalyses.R
+├── run3_prediction.R
+├── run4_replication.R
+└── run5_figures.R
+

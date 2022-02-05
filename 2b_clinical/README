@@ -1,0 +1,94 @@
+This folder contains the scripts for statistical association analysis 
+between metabolomics/proteomics and clinical outcomes within COVID-19 patients
+
+
+-- code file to start analysis -- 
+  main_GIM_clinical.R
+ 
+
+-- input data files -- 
+  "/1_preprocessing/data_preprocessed_metabo.Rdata"
+preprocessed metabolomics data
+
+  "/1_preprocessing/data_preprocessed_proteo.Rdata"
+preprocessed proteomics data
+
+  "/DATA/GIM_outcome_list.xlsx"
+list of outcomes to be analyzed 
+
+
+-- output files --
+  folder: "/results"
+all results, statistics and plots
+
+ [1] "Equalizer_metabo_age.pdf"                                    
+ [2] "Equalizer_metabo_bmi.pdf"                                    
+ [3] "Equalizer_metabo_ckd_or_esrd.pdf"                            
+ [4] "Equalizer_metabo_crp.pdf"                                    
+ [5] "Equalizer_metabo_csc_int_death.pdf"                          
+ [6] "Equalizer_metabo_d_dimer.pdf"                                
+ [7] "Equalizer_metabo_death.pdf"                                  
+ [8] "Equalizer_metabo_dm.pdf"                                     
+ [9] "Equalizer_metabo_ferritin_level.pdf"                         
+[10] "Equalizer_metabo_htn.pdf"                                    
+[11] "Equalizer_metabo_icu.pdf"                                    
+[12] "Equalizer_metabo_intubation1.pdf"                            
+[13] "Equalizer_metabo_lymphocyte.pdf"                             
+[14] "Equalizer_metabo_max_aki_stage.pdf"                          
+[15] "Equalizer_metabo_max_SOFA.pdf"                               
+[16] "Equalizer_metabo_platelet.pdf"                               
+[17] "Equalizer_metabo_sex.pdf"                                    
+[18] "Equalizer_proteo_age.pdf"                                    
+[19] "Equalizer_proteo_bmi.pdf"                                    
+[20] "Equalizer_proteo_ckd_or_esrd.pdf"                            
+[21] "Equalizer_proteo_crp.pdf"                                    
+[22] "Equalizer_proteo_csc_int_death.pdf"                          
+[23] "Equalizer_proteo_d_dimer.pdf"                                
+[24] "Equalizer_proteo_death.pdf"                                  
+[25] "Equalizer_proteo_dm.pdf"                                     
+[26] "Equalizer_proteo_ferritin_level.pdf"                         
+[27] "Equalizer_proteo_htn.pdf"                                    
+[28] "Equalizer_proteo_icu.pdf"                                    
+[29] "Equalizer_proteo_intubation1.pdf"                            
+[30] "Equalizer_proteo_lymphocyte.pdf"                             
+[31] "Equalizer_proteo_max_aki_stage.pdf"                          
+[32] "Equalizer_proteo_max_SOFA.pdf"                               
+[33] "Equalizer_proteo_platelet.pdf"                               
+[34] "Equalizer_proteo_sex.pdf"                                    
+[35] "GIM_clinicals_metabo_allstats.xlsx"                          
+[36] "GIM_clinicals_metabo_metabo_age_pathway_stat.xlsx"           
+[37] "GIM_clinicals_metabo_metabo_bmi_pathway_stat.xlsx"           
+[38] "GIM_clinicals_metabo_metabo_ckd_or_esrd_pathway_stat.xlsx"   
+[39] "GIM_clinicals_metabo_metabo_crp_pathway_stat.xlsx"           
+[40] "GIM_clinicals_metabo_metabo_csc_int_death_pathway_stat.xlsx" 
+[41] "GIM_clinicals_metabo_metabo_d_dimer_pathway_stat.xlsx"       
+[42] "GIM_clinicals_metabo_metabo_death_pathway_stat.xlsx"         
+[43] "GIM_clinicals_metabo_metabo_dm_pathway_stat.xlsx"            
+[44] "GIM_clinicals_metabo_metabo_ferritin_level_pathway_stat.xlsx"
+[45] "GIM_clinicals_metabo_metabo_htn_pathway_stat.xlsx"           
+[46] "GIM_clinicals_metabo_metabo_icu_pathway_stat.xlsx"           
+[47] "GIM_clinicals_metabo_metabo_intubation1_pathway_stat.xlsx"   
+[48] "GIM_clinicals_metabo_metabo_max_aki_stage_pathway_stat.xlsx" 
+[49] "GIM_clinicals_metabo_metabo_max_SOFA_pathway_stat.xlsx"      
+[50] "GIM_clinicals_metabo_metabo_platelet_pathway_stat.xlsx"      
+[51] "GIM_clinicals_metabo_metabo_sex_pathway_stat.xlsx"           
+[52] "GIM_clinicals_metabo_overview.pdf"                           
+[53] "GIM_clinicals_metabo.html"                                   
+[54] "GIM_clinicals_metabo.rds"                                    
+[55] "GIM_clinicals_proteo_allstats.xlsx"                          
+[56] "GIM_clinicals_proteo_overview.pdf"                           
+[57] "GIM_clinicals_proteo_proteo_age_pathway_stat.xlsx"           
+[58] "GIM_clinicals_proteo_proteo_ckd_or_esrd_pathway_stat.xlsx"   
+[59] "GIM_clinicals_proteo_proteo_crp_pathway_stat.xlsx"           
+[60] "GIM_clinicals_proteo_proteo_csc_int_death_pathway_stat.xlsx" 
+[61] "GIM_clinicals_proteo_proteo_d_dimer_pathway_stat.xlsx"       
+[62] "GIM_clinicals_proteo_proteo_death_pathway_stat.xlsx"         
+[63] "GIM_clinicals_proteo_proteo_ferritin_level_pathway_stat.xlsx"
+[64] "GIM_clinicals_proteo_proteo_icu_pathway_stat.xlsx"           
+[65] "GIM_clinicals_proteo_proteo_intubation1_pathway_stat.xlsx"   
+[66] "GIM_clinicals_proteo_proteo_platelet_pathway_stat.xlsx"      
+[67] "GIM_clinicals_proteo.html"                                   
+[68] "GIM_clinicals_proteo.rds"
+
+
+

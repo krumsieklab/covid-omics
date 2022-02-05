@@ -1,0 +1,21 @@
+This folder contains the scripts to 
+
+(1) preprocess clinical metadata and 
+(2) create the composite outcome
+
+
+-- code file to start analysis -- 
+main_create_composite_outcome.R
+
+
+-- input data file -- 
+  "1_preprocessing/data_preprocessed_metabo.Rdata"
+
+
+-- output files --
+  "data_for_predictive_modeling.Rdata"
+which includes composite outcome, its components, and metabolomics data as following data.frames
+  compo: composite outcome and its components
+  metab: metabolomics data
+
+

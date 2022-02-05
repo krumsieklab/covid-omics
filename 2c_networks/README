@@ -1,0 +1,27 @@
+This folder contains the script to 
+  (1) calculate a GGM from metabolomics and proteomics data 
+  (2) retrieve case-control statistics to annotate the GGM
+  (3) calculate the MST network based on (1) and (2) as explained in the paper 
+
+
+-- code file to start analysis -- 
+  main_GGM_analysis.R
+
+
+-- input data file -- 
+  "/1_preprocessing/data_preprocessed_for_GGM.Rdata"
+which includes preprocessed data for GGM. For maximal power, all samples 
+are used. Data is corrected for age, gender and status.
+
+
+-- output file --
+  "/results/igraph_networks.Rdata"
+which includes following networks,
+  net1: GGM with FDR=0.2 
+  net2: Figure 3 simplified MST network of significant hits
+
+
+
+
+
+

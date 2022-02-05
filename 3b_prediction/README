@@ -1,0 +1,28 @@
+This folder contains the scripts for predicting the risk of
+composite outcome using reor4me: regularized linear mixed effect ordinal regression. 
+
+
+-- code file to start analysis -- 
+  main_prediction_modeling.R
+  main_prediction_modeling_lasso_path.R
+  main_prediction_master_fit.R
+  folder: model/ includes necessary scripts to fit reor4me model 
+
+
+-- input data file -- 
+  "data_for_predictive_modeling.Rdata"
+which includes data ready for predictive modeling
+
+
+-- output files --
+  "lasso_loo_fits" 
+  "lasso_path_loo_fits"
+includes objects for reor4me model fits and lasso path which is used to 
+calculate accuracy vs parsimony tradeoff which can be seen in supplementary figure. 
+
+  "reor4me_signatures"
+includes final model signature that is selected metabolites along with corresponding regression coefficients
+
+
+
+

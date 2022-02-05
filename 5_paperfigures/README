@@ -1,0 +1,71 @@
+This folder contains the scripts for paper figures. 
+
+----------------------------------------------------------------------------------
+Figure 2
+-- input data file -- 
+"2a_casecontrol/results/GIM_Case-Control_metabo.rds"
+"2a_casecontrol/results/GIM_Case-Control_proteo.rds"
+  results of case-control analysis 
+  
+-- output file --   
+"figure2.fig"
+  which includes ggplot objects for volcano plots, barplots, and boxplots in figure 2
+  
+----------------------------------------------------------------------------------
+Figure 3
+-- input data file -- 
+"2c_networks/results/igraph_networks.Rdata"
+  results of network analysis
+  
+-- output file --   
+"figure3.fig"
+  which includes igraph objects, and preconfigured function to plot networks 
+
+----------------------------------------------------------------------------------
+Figure 4
+-- input data file -- 
+"2b_clinical/results/GIM_clinicals_metabo.rds"
+"2b_clinical/results/GIM_clinicals_proteo.rds"
+  results of clinical analysis 
+  
+-- output file --   
+"figure4.fig"
+  which includes ggplot objects for volcano plots, lollipop plots, and 
+  plottable pheatmap objects of heatmaps in figure 4  
+
+
+----------------------------------------------------------------------------------
+Figure 5
+-- input data file -- 
+"3b_prediction/lasso_loo_fits.Rdata"
+  model fits for each leave-one-out sample 
+  
+-- output file --   
+"figure5.fig"
+  which includes ggplot object for figure 5
+
+
+----------------------------------------------------------------------------------
+Figure 5 - replication
+-- input data file -- 
+"4_replication/Shen_et_al_testset1.Rdata"
+"4_replication/Shen_et_al_testset2.Rdata"
+"4_replication/Su_et_al_testset.Rdata"
+  precalculated predictions with independet datasets
+  
+-- output file --   
+"figure5replication.fig"
+  which includes ggplot object for replication results in figure 5
+
+
+----------------------------------------------------------------------------------
+Figure 5 - Supplement
+-- input data file -- 
+"3b_prediction/lasso_path_loo_fits.Rdata"
+  lasso path model fits for each leave-one-out sample 
+  
+-- output file --   
+"figure5Supplement.fig"
+  which includes ggplot object for accuracy vs parsimony tradeoff plot which 
+  can be seen in supplementary figure
+
