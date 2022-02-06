@@ -107,7 +107,7 @@ ggplot() +
 dev.off()
 
 # Figure 5 supplement
-load(glue::glue("{path}/figure5supplement.fig"))
+load(glue::glue("{path}/figure5Supplement.fig"))
 pdf(file = glue::glue("{path}/figure5_supplement.pdf"))
 plot(gg_lpath)
 dev.off()
